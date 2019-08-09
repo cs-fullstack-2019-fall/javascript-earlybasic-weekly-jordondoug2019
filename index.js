@@ -6,19 +6,29 @@ if (input===1)
 {
 	var count1= parseInt(prompt("Enter a number to count by ones. Enter t to count by twos"));
 	var t= "t";
+	var valid=true
 	var c1=count1
-	while(c1<=c1)
-	{
-		c1++;
-		console.log(count1);
+
+	while(c1>=1 && c1>=c1)
+	{ 
+
+	if (c1=c1)
+
+		{console.log(c1);}
+	c1++
+
 	}
 	if (count1===t)
 	{
 		var tanswr= parseInt(prompt("enter a number to count by two"));
 		var t2=tanswr
-		for(t2;t2>1;t2+2)
+		while(tanswr>=1 && tanswr>=tanswr)
 		{
-			console.log(t2)
+			if (tanswr>=tanswr)
+			{
+				console.log(t2)
+			}
+			tanswr+2
 		}
 		
 	}
