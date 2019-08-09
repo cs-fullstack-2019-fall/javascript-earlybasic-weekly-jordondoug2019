@@ -1,0 +1,47 @@
+
+var input = parseInt(prompt("welcome to Kenn's program. Press 1 to count. press 2 to use a calculator. press q to quit."))
+
+
+if (input===1)
+{
+	var count1= parseInt(prompt("Enter a number to count by ones. Enter t to count by twos"));
+	var t= "t";
+	var c1=count1
+	while(c1<=c1)
+	{
+		c1++;
+		console.log(count1);
+	}
+	if (count1===t)
+	{
+		var tanswr= parseInt(prompt("enter a number to count by two"));
+		var t2=tanswr
+		for(t2;t2>1;t2+2)
+		{
+			console.log(t2)
+		}
+		
+	}
+	
+
+}
+if(input===2)
+{
+	var count2= prompt(" If you would like to use addditon press a. If you would like subtraction press s")
+	
+	if (count2==="a")
+	{
+		var counta=parseInt(prompt("enter a number"))
+		var countb=parseInt(prompt("enter number 2"))
+		var sum= counta+countb
+		alert("The answer is " + sum)
+	}
+	else if (count2=== "s")
+	{
+ 	    var counts1=parseInt(prompt("enter a number"))
+ 		var counts2=parseInt(prompt("enter number"))
+ 		var total= counts1 - counts2
+ 		alert("Your answer is : " + total)
+	}
+	
+}
